@@ -25,3 +25,26 @@ Cybersecurity in the development of a cybersecurity-focused social network.
 build a safe application.
 3. Deliver a functional prototype of CyberSafe that showcases its main features.
 
+# Configuration manual on how to use the application.
+
+A) Install XAMPP:
+ 1) Visit https://www.apachefriends.org/index.html and select download XAMPP installer in the version that suits your OS (Windows, Linux or OSX) 
+Windows installation will be explained:
+
+IMPORTANT: Do not install XAMPP in the C:\Program Files directory, a warning message may appear reminding this when you open the installer. XAMPP must be installed in any other directory other than C:\Program files
+
+ 2) Open the installer, click NEXT, select all the default components (PHP, MySQL, phpMyadmin...). Click Next.
+ 3) Select a folder to install XAMPP, by default C:\XAMPP should appear, if not, enter this directory. Click Next
+ 4) Select Language and click next
+ 5) Agree to install Bitnami and click next
+ 6) XAMPP installation will begin, XAMPP webspage will open for you to learn about the tool. This step can take up to a few minutes.
+ 7) Click finish when installation is ready, XAMPPs control panel will open automatically.
+ 8) Start Apache and Start MySQL
+ 9) If you type localhost in your browser, XAMPP website should appear.
+
+B)Create a folder called "demo" under the htdocs folder in C:\xamp\htdocs. Download the files in FinalProject-Cybersafe and put them inside that demo folder: C:\xamp\htdocs\demo
+
+C)Create the database
+
+ •	During the installation process, select the required components like MySQL, FileZilla ftp server, PHP, phpMyAdmin or leave the default options and click the Next button. 
+ 
