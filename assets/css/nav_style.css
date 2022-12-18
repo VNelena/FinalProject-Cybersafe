@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: 'Berlin Sans FB Regular';
+    src: url('../fonts/Berlin Sans FB Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Berlin Sans FB Regular';
+    src: url('../fonts/Berlin Sans FB Regular.ttf');
+}
+
+.topbar{
+    width: 100%;
+    min-width: 1050px;
+    height: 40px;
+    background-color: aqua;
+    border-bottom: 5px solid black;
+    margin: 0 0 10px 0;
+    display: inline-flex;
+}
+.body{
+    background-color: aqua;
+    line-height: 17px;
+}
+.logo a{
+    font-family: 'Berlin Sans FB', sans-serif;
+    margin-left: 10px;
+    font-size: 50%;
+    position:relative;
+    top: 9px;
+}
+
+.a:hover{
+    text-decoration:none;
+
+}
+nav a{
+    position:relative;
+    color: floralwhite;
+    text-decoration:none;
+    font-size: 70px;
+}
+
+nav{
+    float:right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a:hover{
+    border-bottom-color: lightyellow;
+
+}
