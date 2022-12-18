@@ -34,17 +34,27 @@ Windows installation will be explained:
 IMPORTANT: Do not install XAMPP in the C:\Program Files directory, a warning message may appear reminding this when you open the installer. XAMPP must be installed in any other directory other than C:\Program files
 
  2) Open the installer, click NEXT, select all the default components (PHP, MySQL, phpMyadmin...). Click Next.
- 3) Select a folder to install XAMPP, by default C:\XAMPP should appear, if not, enter this directory. Click Next
+ 3) Select a folder to install XAMPP, by default C:\xampp should appear, if not, enter this directory. Click Next
  4) Select Language and click next
  5) Agree to install Bitnami and click next
- 6) XAMPP installation will begin, XAMPP webspage will open for you to learn about the tool. This step can take up to a few minutes.
+ 6) XAMPP installation will begin, XAMPP webpage will open in the browser the meantime. This step can take up to a few minutes.
  7) Click finish when installation is ready, XAMPPs control panel will open automatically.
- 8) Start Apache and Start MySQL
- 9) If you type localhost in your browser, XAMPP website should appear.
+ 8) In the control panel, click Start Apache and Start MySQL
+ 9) If the steps above were followed correctly, when you type localhost in your browser, XAMPP website should appear.
 
-B)Create a folder called "demo" under the htdocs folder in C:\xamp\htdocs. Download the files in FinalProject-Cybersafe and put them inside that demo folder: C:\xamp\htdocs\demo
+B)Create a folder called "demo" under the htdocs folder in C:\xampp\htdocs. Download the files in FinalProject-Cybersafe and put them inside that demo folder: C:\xampp\htdocs\demo
 
 C)Create the database
+1)In the database folder of this repository, you will find the SQL code to create CyberSafe's database.
+2)In the browser, open another tab and enter "localhost/phymyadmin" in the url bar. phpMyadmin should open. If XAMPP's control panel shows that MYSQL is running and this step still doesn't work, try to type "localhost/8080/phymyadmin" in the URL instead.
+3) On the left hand side, select NEW and give the name "cybersafe" to the new database.
+4) Click on the new database to open it and select SQL on the horizontal bar.
+5) Copy the SQL code from the file and click Go.
 
- •	During the installation process, select the required components like MySQL, FileZilla ftp server, PHP, phpMyAdmin or leave the default options and click the Next button. 
- 
+D) Run the application
+1) Once the database has been created, you only have to go to localhost/demo/index.php to visit CyberSafe.
+2) If you are a new user the application should not show the home page, but the registration page localhost/demo/register.php
+3) Go ahead and register an account using a ncirl.com email, alternatively, use my account: elenavelez@ncirl.com, password:12345678
+4) Navigation from here is intuitive.
+
+
