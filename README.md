@@ -47,14 +47,20 @@ B)Create a folder called "demo" under the htdocs folder in C:\xampp\htdocs. Down
 C)Create the database
 1)In the database folder of this repository, you will find the SQL code to create CyberSafe's database.
 2)In the browser, open another tab and enter "localhost/phymyadmin" in the url bar. phpMyadmin should open. If XAMPP's control panel shows that MYSQL is running and this step still doesn't work, try to type "localhost/8080/phymyadmin" in the URL instead.
-3) On the left hand side, select NEW and give the name "cybersafe" to the new database.
-4) Click on the new database to open it and select SQL on the horizontal bar.
-5) Copy the SQL code from the file and click Go.
+
+3) On the left hand side of phpMyadmin, select NEW and give the name "cybersafe" to the new database. ClicK "Create" and the database will be added to your list of databases.
+
+5) Click on the new database cybersafe to open it and select SQL on the horizontal bar.
+
+7) Copy the SQL code from the file cybersafe.sql available under folder "database" in this repository and click Go.
 
 D) Run the application
-1) Once the database has been created, you only have to go to localhost/demo/index.php to visit CyberSafe.
-2) If you are a new user the application should not show the home page, but the registration page localhost/demo/register.php
-3) Go ahead and register an account using a ncirl.com email, alternatively, use my account: elenavelez@ncirl.com, password:12345678
-4) Navigation from here is intuitive.
+1) Once the database has been created, you only have to go to localhost/demo/index.php to visit CyberSafe. Remember XAMPP control panel must be running Apache and MySQL.
+
+3) If you are a new user the application should not show the home page, but the registration page localhost/demo/register.ph
+
+5) Go ahead and register an account, alternatively, use my dummy account: elenavelez@ncirl.com, password:12345678
+
+7) Navigation from here is intuitive.
 
 
